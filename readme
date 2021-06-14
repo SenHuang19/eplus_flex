@@ -1,11 +1,11 @@
 This repo contains a Docker setup for running EnergyPlus models.
 
-To use it, follows the procedure below:
+To use it, follow the procedure below:
 
 1. clone this repo and cd into the root directory, type "make build"
 
 2. type "make run wea =$wea$  city = $city$". Note that right now there are two options for $wea$ and $city$, respectively.
 $wea$ can be "atlanta" or "denver" while $city$ can be "Atlanta" or "Denver".
 
-3. open another terminal and cd into the root directory, type "python server config/$config$ $start_time$ $deviation$".
+3. open another terminal and cd into the root directory, type "python server.py config/$config$ $start_time$ $deviation$".
 $config$ can be "Atlanta.config" or "Denver.config", $start_time$ is the index of hour (0 to 24*7, interval 0.5), $deviation$ is the deviation of the cooling setpoint from its nominal value.
