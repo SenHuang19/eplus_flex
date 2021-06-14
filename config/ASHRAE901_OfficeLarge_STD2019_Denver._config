@@ -1,0 +1,165 @@
+
+    {"inputs" : {
+		"a0_act" : {
+			"name" :"a0_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a1_act" : {
+			"name" :"a1_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a2_act" : {
+			"name" :"a2_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a3_act" : {
+			"name" :"a3_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a4_act" : {
+			"name" :"a4_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a5_act" : {
+			"name" :"a5_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a6_act" : {
+			"name" :"a6_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a7_act" : {
+			"name" :"a7_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a8_act" : {
+			"name" :"a8_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a9_act" : {
+			"name" :"a9_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a10_act" : {
+			"name" :"a10_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a11_act" : {
+			"name" :"a11_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a12_act" : {
+			"name" :"a12_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a13_act" : {
+			"name" :"a13_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a14_act" : {
+			"name" :"a14_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"a15_act" : {
+			"name" :"a15_act",
+			"type" : "actuator",
+			"field" : "CoolingSetpointTemperature"
+		}
+		},
+ "outputs" : {
+		"setpoint0" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM_w_SB",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint1" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint2" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint3" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint4" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint5" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint6" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint7" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint8" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint9" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint10" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint11" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint12" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint13" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint14" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		},
+		"setpoint15" : {
+			"name" :"CLGSETP_SCH_YES_OPTIMUM",
+			"type" : "Schedule Value",
+			"field" : "CoolingSetpointTemperature"
+		}
+		}}
