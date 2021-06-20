@@ -82,10 +82,10 @@ def writeVariableFile(config):
         config=json.load(f,object_pairs_hook=collections.OrderedDict)
         if 'inputs' in config: 
             INPUTS = config['inputs']
-        print INPUTS
+#        print INPUTS
         if 'outputs' in config:
             OUTPUTS = config['outputs']
-        print OUTPUTS
+#        print OUTPUTS
         ePlusOutputs=0
         ePlusInputs=0
         fh = open('variables.cfg', "w+")
@@ -141,7 +141,7 @@ while 1:
          data = conn.recv(10240)
 		 
          print('I just got a connection from ', addr)
-         print data
+#         print data
          data = data.rstrip()
 
          arry = data.split() 
@@ -167,9 +167,9 @@ while 1:
                           if index>=start*60 and index<start*60+30:                                                   
 			                              if dev_act==100:
 			                                     if dev<0:
-			  			                               dev_act = rd.uniform(dev,0)
+                                                               dev_act = rd.uniform(dev,0)
 			                                     else:
-			  			                               dev_act = rd.uniform(0,dev)                          
+                                                               dev_act = rd.uniform(0,dev)                          
                                                   
 			                              mssg=mssg+' '+str(dev_act+float(arry[6+i]))
                           elif index<start*60 and index>=start*60-60:                                                                        
